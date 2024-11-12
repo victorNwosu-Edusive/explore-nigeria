@@ -18,13 +18,13 @@ const Modal = ({ image, onClose }) => {
       >
         <img src={image.src} alt={image.alt} className="w-full h-auto" />
         <div className="p-6 text-center">
-          <h3 className="text-2xl font-semibold text-green-900 mb-2">{image.alt}</h3>
-          <p className="text-gray-700 mb-4">Some additional information about {image.alt} goes here.</p>
+          <h3 className="text-2xl font-heading text-green-900 mb-2">{image.alt}</h3>
+          <p className="text-gray-700 font-primary mb-4">{image.text}</p>
           <button 
-            className="px-6 py-2 bg-green-900 text-white font-semibold rounded hover:bg-black transition duration-300"
+            className="px-6 py-2 bg-green-900 text-white font-heading rounded hover:bg-black transition duration-300"
             onClick={onClose}
           >
-            Close
+            Close [x]
           </button>
         </div>
       </motion.div>

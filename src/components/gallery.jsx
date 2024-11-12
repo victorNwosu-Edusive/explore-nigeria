@@ -9,10 +9,10 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-    { src: image1, alt: 'Obudu Mountain Resort' },
-    { src: image2, alt: 'Zuma Rock' },
-    { src: image3, alt: 'Ibeno Beach' },
-    { src: image4, alt: 'Idanre Hills' },
+    { src: image1, alt: 'Idanre Hills', text: 'Idanre Hills is a stunning tourist attraction located in the heart of Ondo State, Nigeria.' },
+    { src: image2, alt: 'Obudu Mountain Resort', text: 'Obudu Mountain Resort, also known as Obudu Cattle Ranch, is one of Nigeria’s most sought-after tourist destinations nestled in the heart of Cross River State.' },
+    { src: image3, alt: 'Ogbunike Caves', text: 'Ogbunike Caves are a unique natural formation located in Ogbunike, Anambra State. The caves are known for their spiritual and historical significance.' },
+    { src: image4, alt: 'Zuma Rock', text: 'Zuma Rock, often referred to as the “Gateway to Abuja,” is an iconic natural landmark located just outside Nigeria’s capital, Abuja.' },
   ];
 
   const openModal = (image) => setSelectedImage(image);
