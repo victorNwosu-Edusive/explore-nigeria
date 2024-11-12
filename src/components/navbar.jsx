@@ -54,13 +54,13 @@ function Navbar() {
       </div>
 
       <div id="mobile" className={`${
-          isOpen ? "top-0" : "-top-full"
-        } md:hidden fixed grid duration-500 gap-5 text-center z-20 text-white font-heading text-xl h-auto w-full p-3 pb-40 pt-20 bg-emerald-900/70 backdrop-blur-md mx-auto max-w-screen-xl `}>
-          <a href="#destination" className='md:block bg-green-950/40 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title="Destination">Destinations</a>
-          <a href="/" className='relative md:block bg-green-950/40 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title='Experiences'>Experiences</a>
-          <a href="/" className='md:block bg-green-950/40 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title='Plan Your Trip'>Plan your trip</a>
-          <a href="/" className='md:block bg-green-950/40 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title='Gallery'>Gallery</a>
-          <a href="/" className='md:block bg-green-950/40 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title='Contact Us'>Contact Us</a>
+          isOpen ? "right-0" : "-right-full"
+        } md:hidden fixed grid duration-300 gap-5 text-center z-20 text-white font-heading text-xl h-auto w-full p-3 pb-48 pt-20 bg-emerald-900/90 backdrop-blur-md mx-auto max-w-screen-xl `}>
+          <a href="#destination" className='md:block bg-green-500/10 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title="Destination">Destinations</a>
+          <a href="/" className='relative md:block bg-green-500/10 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title='Experiences'>Experiences</a>
+          <a href="/" className='md:block bg-green-500/10 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title='Plan Your Trip'>Plan your trip</a>
+          <a href="/" className='md:block bg-green-500/10 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title='Gallery'>Gallery</a>
+          <a href="/" className='md:block bg-green-500/10 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title='Contact Us'>Contact Us</a>
       </div>
 
         </>
