@@ -1,8 +1,6 @@
 import logo from "../assets/images/explore-nigeria-header.png";
 import { motion } from "framer-motion";
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -61,7 +59,7 @@ function Navbar() {
           <a href="#destination" className='md:block bg-green-950/40 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title="Destination">Destinations</a>
           <a href="/" className='relative md:block bg-green-950/40 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title='Experiences'>Experiences</a>
           <a href="/" className='md:block bg-green-950/40 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title='Plan Your Trip'>Plan your trip</a>
-          <Link to="/gallery" className='md:block bg-green-950/40 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title='Gallery'>Gallery</Link>
+          <a href="/" className='md:block bg-green-950/40 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title='Gallery'>Gallery</a>
           <a href="/" className='md:block bg-green-950/40 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title='Contact Us'>Contact Us</a>
       </div>
 
