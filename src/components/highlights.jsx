@@ -23,7 +23,7 @@ const Highlights = () => {
               whileTap={{ scale: 0.95 }}
               transition={{ type: "spring", stiffness: 200, damping: 10 }}
             />
-            <p className="font-bold mt-3 font-heading text-2xl md:text-3xl text-left text-green-900">Festivals and Events</p>
+            <p className="mt-3 font-heading text-2xl md:text-3xl text-left text-green-900">Festivals and Events</p>
             <p className="font-primary text-md md:text-md text-left text-green-900 mb-5">Durbar, Eyo, Calabar Carnival & more.</p>
             <button className="bg-green-900 md:text-2xl p-2 px-6 font-heading text-amber-400 hover:bg-black duration-300">Explore Further</button>
           </div>
@@ -38,7 +38,7 @@ const Highlights = () => {
               whileTap={{ scale: 0.95 }}
               transition={{ type: "spring", stiffness: 200, damping: 10 }}
             />
-            <p className="font-bold mt-3 font-heading text-2xl md:text-3xl text-left text-green-900">Traditional Arts and Crafts</p>
+            <p className="mt-3 font-heading text-2xl md:text-3xl text-left text-green-900">Traditional Arts and Crafts</p>
             <p className="font-primary text-md md:text-md text-left text-green-900 mb-5">Aso-Oke, Benin Bronzes, Nok Terracotta.</p>
             <button className="bg-green-900 md:text-2xl p-2 px-6 font-heading text-amber-400 hover:bg-black duration-300">Explore Further</button>
           </div>
@@ -53,7 +53,7 @@ const Highlights = () => {
               whileTap={{ scale: 0.95 }}
               transition={{ type: "spring", stiffness: 200, damping: 10 }}
             />
-            <p className="font-bold mt-3 font-heading text-2xl md:text-3xl text-left text-green-900">Cuisine</p>
+            <p className="mt-3 font-heading text-2xl md:text-3xl text-left text-green-900">Cuisine</p>
             <p className="font-primary text-md md:text-md text-left text-green-900 mb-5">Jollof Rice, Pounded Yam, Suya & more.</p>
             <button className="bg-green-900 md:text-2xl p-2 px-6 font-heading text-amber-400 hover:bg-black duration-300">Explore Further</button>
           </div>
@@ -68,7 +68,7 @@ const Highlights = () => {
               whileTap={{ scale: 0.95 }}
               transition={{ type: "spring", stiffness: 200, damping: 10 }}
             />
-            <p className="font-bold mt-3 font-heading text-2xl md:text-3xl text-left text-green-900">Music and Dance</p>
+            <p className="mt-3 font-heading text-2xl md:text-3xl text-left text-green-900">Music and Dance</p>
             <p className="font-primary text-md md:text-md text-left text-green-900 mb-5">Afrobeat, Highlife, Traditional Dance.</p>
             <button className="bg-green-900 md:text-2xl p-2 px-6 font-heading text-amber-400 hover:bg-black duration-300">Explore Further</button>
           </div>
