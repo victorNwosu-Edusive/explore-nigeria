@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Florest';
+  src: url(../src/assets/fonts/Florest.ttf);
+}
+
+@font-face {
+  font-family: 'Karla';
+  src: url(../src/assets/fonts/static/Karla-Regular.ttf);
+}
