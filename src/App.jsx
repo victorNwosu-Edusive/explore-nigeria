@@ -8,9 +8,9 @@ import dance from "../src/assets/images/dance.jpeg";
 import dishes from "../src/assets/images/dishes.webp";
 import Navbar from "../src/components/navbar"; 
 import './App.css';
-import Destinations from "./components/destinations";
-import Highlights from "./components/highlights";
-import Gallery from "./components/gallery";
+import Destinations from "../src/components/destinations";
+import Highlights from "../src/components/highlights";
+import Gallery from "../src/components/gallery";
 
 function App() {
   
