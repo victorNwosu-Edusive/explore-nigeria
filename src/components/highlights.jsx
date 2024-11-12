@@ -9,7 +9,7 @@ const Highlights = () => {
     return (
       <div className="h-auto text-white p-10 md:p-20 bg-green-50">
         <p className="font-heading text-3xl md:text-4xl text-center mb-5 text-green-900">Cultural Highlights</p>
-        <p className="tracking-[.40em] text-green-900 font-primary text-sm text-center md:text-center mb-3 md:mb-6">EXPERIENCE THE RICH TRADITIONS AND HERITAGE OF NIGERIA</p>
+        <p className="tracking-[.40em]  text-green-900 font-primary text-[12px] md:text-sm text-center md:text-center mb-3 md:mb-6">EXPERIENCE THE RICH TRADITIONS AND HERITAGE OF NIGERIA</p>
   
         <div className="grid md:grid-cols-2 gap-3 md:gap-11 items-center">
           

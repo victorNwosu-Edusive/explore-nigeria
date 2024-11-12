@@ -27,7 +27,7 @@ function App() {
       className="App"
         >
           <p className="tracking-[.55em] text-white font-primary text-sm md:text-center mb-3 md:mb-6">EXPLORE NIGERIA</p>
-          <p className=" text-3xl md:text-5xl align-middle font-primary text-white"> <span className="font-heading">Discover</span> the Vibrant <span className="text-amber-400 font-bold underline decoration-dashed font-heading">Heart of Africa</span> – Explore Nigeria’s Rich Culture, 
+          <p className=" text-3xl md:text-5xl align-middle font-primary text-white"> <span className="font-heading">Discover</span> the Vibrant <span className="text-amber-400 underline decoration-dashed font-heading">Heart of Africa</span> – Explore Nigeria’s Rich Culture, 
             Scenic Beauty, and Hidden Gems.</p>
             <button className="p-2 px-7 md:px-8 bg-green-900 text-xl text-white font-heading mt-5 hover:bg-black hover:text-amber-400 duration-300">Start Exploring —</button>
             </motion.div>
