@@ -31,7 +31,7 @@ Nigeria is a country filled with diverse cultures, breathtaking landscapes, and 
 
 ## Demo
 
-View the live demo here: [Explore Nigeria on Vercel App](https://explore-nigeria-1.vercel.app/)
+View the live demo here: [Explore Nigeria on Vercel App](https://explore-nigeria.vercel.app/)
 
 ---
 
