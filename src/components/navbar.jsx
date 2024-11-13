@@ -15,7 +15,7 @@ function Navbar() {
 
     return (
         <>
-        <div className='fixed z-30 w-full p-4 bg-emerald-900/70 backdrop-blur-md flex flex-wrap justify-between items-center mx-auto max-w-screen-xl'>
+        <div className='fixed z-30 w-full p-4 ease-in bg-emerald-900/70 backdrop-blur-md flex flex-wrap justify-between items-center mx-auto max-w-screen-xl'>
         <div className='flex space-x-3 rtl:space-x-reverse'>
           <a className='font-heading text-white text-xl md:text-2xl hover:text-amber-400 duration-300' href=''>Explore Nigeria
           </a>
@@ -55,7 +55,7 @@ function Navbar() {
 
       <div id="mobile" className={`${
           isOpen ? "top-0" : "-top-full"
-        } md:hidden fixed grid duration-200 gap-5 text-center z-20 text-white font-heading text-xl h-auto w-full p-3 pb-52 pt-20 bg-emerald-900/90 backdrop-blur-md mx-auto max-w-screen-xl `}>
+        } md:hidden fixed grid duration-300 ease-out gap-5 text-center z-20 text-white font-heading text-xl h-auto w-full p-3 pb-52 pt-20 bg-emerald-900/90 backdrop-blur-md mx-auto max-w-screen-xl `}>
           <a href="/" className='md:block bg-green-500/10 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title="Destination">Destinations</a>
           <a href="/" className='relative md:block bg-green-500/10 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title='Experiences'>Experiences</a>
           <a href="/" className='md:block bg-green-500/10 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title='Plan Your Trip'>Plan your trip</a>

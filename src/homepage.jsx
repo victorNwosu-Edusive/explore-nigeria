@@ -7,6 +7,7 @@ import './App.css';
 import Destinations from "../src/components/destinations";
 import Highlights from "../src/components/highlights";
 import Gallery from "../src/components/gallery";
+import Footer from './components/footer';
 
 const Homepage = () => {
 
@@ -33,6 +34,7 @@ return (
         <Destinations />
         <Highlights />
         <Gallery />
+        <Footer />
         
       
     </>

@@ -12,6 +12,7 @@ export default {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('../src/assets/images/body-image.jpg')",
+        'footer-pattern': "url('../src/assets/images/footer-image.jpg')",
       }
     },
   },

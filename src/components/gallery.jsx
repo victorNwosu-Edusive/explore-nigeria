@@ -13,6 +13,11 @@ const Gallery = () => {
     { src: image2, alt: 'Obudu Mountain Resort', text: 'Obudu Mountain Resort, also known as Obudu Cattle Ranch, is one of Nigeria’s most sought-after tourist destinations nestled in the heart of Cross River State.' },
     { src: image3, alt: 'Ogbunike Caves', text: 'Ogbunike Caves are a unique natural formation located in Ogbunike, Anambra State. The caves are known for their spiritual and historical significance.' },
     { src: image4, alt: 'Zuma Rock', text: 'Zuma Rock, often referred to as the “Gateway to Abuja,” is an iconic natural landmark located just outside Nigeria’s capital, Abuja.' },
+    { src: image3, alt: 'Ogbunike Caves', text: 'Ogbunike Caves are a unique natural formation located in Ogbunike, Anambra State. The caves are known for their spiritual and historical significance.' },
+    { src: image4, alt: 'Zuma Rock', text: 'Zuma Rock, often referred to as the “Gateway to Abuja,” is an iconic natural landmark located just outside Nigeria’s capital, Abuja.' },
+    { src: image3, alt: 'Ogbunike Caves', text: 'Ogbunike Caves are a unique natural formation located in Ogbunike, Anambra State. The caves are known for their spiritual and historical significance.' },
+    { src: image4, alt: 'Zuma Rock', text: 'Zuma Rock, often referred to as the “Gateway to Abuja,” is an iconic natural landmark located just outside Nigeria’s capital, Abuja.' },
+    { src: image3, alt: 'Ogbunike Caves', text: 'Ogbunike Caves are a unique natural formation located in Ogbunike, Anambra State. The caves are known for their spiritual and historical significance.' },
   ];
 
   const openModal = (image) => setSelectedImage(image);
@@ -20,13 +25,14 @@ const Gallery = () => {
 
   return (
 <>
-    <p className="font-heading text-3xl md:text-4xl text-center text-amber-500 mt-11">Gallery</p>
+    <div className='p-8 md:p-11'>
+    <p className="font-heading text-3xl md:text-4xl text-center text-amber-500">Gallery</p>
         <p className="tracking-[.40em] text-white font-primary text-[10px] text-center md:text-center mt-1 md:mb-6">A VISUAL JOURNEY THROUGH NIGERIA'S WONDERS</p>
-    <div className="p-10 grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+    <div className="p-10 grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
       {images.map((image, index) => (
         <div
           key={index}
-          className="relative cursor-pointer overflow-hidden rounded-lg shadow-lg"
+          className="relative cursor-pointer overflow-hidden rounded-md shadow-lg"
           onClick={() => openModal(image)}
         >
           <img
@@ -37,6 +43,8 @@ const Gallery = () => {
         </div>
       ))}
       {selectedImage && <Modal image={selectedImage} onClose={closeModal} />}
+    </div>
+
     </div>
 
     </>
