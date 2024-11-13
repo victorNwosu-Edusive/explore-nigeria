@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <>
 
-        <div className="h-auto p-7 md:p-32 bg-footer-pattern bg-green-800 bg-blend-color-burn bg-no-repeat bg-cover bg-center">
+        <footer role="contentinfo" className="h-auto p-7 md:p-32 bg-footer-pattern bg-green-800 bg-blend-color-burn bg-no-repeat bg-cover bg-center">
         
         
         <div className="md:flex flex justify-between flex-wrap">
@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
         
        </div>
-       </div>
+       </footer>
           
         </>
       )
