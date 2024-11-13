@@ -57,8 +57,8 @@ const Footer = () => {
         
         <div className="md:flex flex justify-between flex-wrap pt-2 md:pt-3">
         <div className="flex space-x-3 rtl:space-x-reverse opacity-60">
-        <a className='font-heading text-white text-md md:text-xl hover:text-amber-400 duration-300' href=''>Explore Nigeria
-          </a>
+        <NavLink to="/" className='font-heading text-white text-md md:text-xl hover:text-amber-400 duration-300'>Explore Nigeria
+          </NavLink>
           <img src={logo} alt="" className="h-6 w-6 md:h-6 md:w-6"  />
           </div>
 
