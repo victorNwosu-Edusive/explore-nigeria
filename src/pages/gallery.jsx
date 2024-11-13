@@ -26,7 +26,7 @@ const Gallery = () => {
   return (
 <>
     <div className="p-16 pt-28 md:pt-32 bg-green-900 bg-blend-overlay bg-destination-banner md:p-32 bg-cover bg-no-repeat">
-        <p className="font-heading text-5xl text-white">Gallery — </p>
+        <p className="font-heading text-3xl md:text-5xl text-white">Gallery — </p>
         <p className="tracking-[.35em] text-white font-primary text-[12px] font-bold mt-1 ">A VISUAL JOURNEY THROUGH NIGERIA'S WONDERS</p>
       </div>
     <div className='p-8 md:p-11'>
