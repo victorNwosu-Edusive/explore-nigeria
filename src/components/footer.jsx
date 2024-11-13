@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <>
 
-        <footer role="contentinfo" className="h-auto p-7 pt-16 md:pt-32 md:px-32 bg-footer-pattern bg-green-900 bg-blend-color-burn bg-fixed bg-no-repeat bg-cover bg-center">
+        <footer role="contentinfo" className="h-auto p-7 pt-16 md:pt-32 md:px-32 bg-footer-pattern bg-green-950 md:bg-green-900 bg-blend-color-burn bg-fixed bg-no-repeat bg-cover bg-center">
         
         
         <div className="block md:grid md:grid-cols-5 gap-14 md:gap-14 text-sm text-white font-primary pb-16">
