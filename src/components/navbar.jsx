@@ -1,6 +1,8 @@
 import logo from "../assets/images/explore-nigeria-header.png";
 import { motion } from "framer-motion";
 import React, { useState } from 'react';
+import { Outlet, NavLink } from "react-router-dom";
+import Footer from "./footer";
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -15,10 +17,10 @@ function Navbar() {
 
     return (
         <>
-        <div className='fixed z-30 w-full p-4 ease-in bg-emerald-900/70 backdrop-blur-md flex flex-wrap justify-between items-center mx-auto max-w-screen-xl'>
+        <nav className='fixed z-30 w-full p-4 ease-in bg-emerald-900/70 backdrop-blur-md flex flex-wrap justify-between items-center mx-auto max-w-screen-xl'>
         <div className='flex space-x-3 rtl:space-x-reverse'>
-          <a className='font-heading text-white text-xl md:text-2xl hover:text-amber-400 duration-300' href=''>Explore Nigeria
-          </a>
+          <NavLink to="/" className='font-heading text-white text-xl md:text-2xl hover:text-amber-400 duration-300' onClick={closeMenu} >Explore Nigeria
+          </NavLink>
           <img src={logo} alt="" className="h-7 w-7"  />
         </div>
 
@@ -42,27 +44,52 @@ function Navbar() {
             ></span>
           </button>
         </div>
-          <a href="/" className='hidden md:block md:text-l p-2 hover:bg-green-600 duration-300 active:text-green-600' title="Destination">Destinations</a>
-          <a href="/" className='hidden md:block md:text-l p-2 hover:bg-green-600 duration-300 active:text-green-600' title='Experiences'>Experiences</a>
-          <a href="/" className='hidden md:block md:text-l p-2 hover:bg-green-600 duration-300 active:text-green-600' title='Plan Your Trip'>Plan your trip</a>
-          <a href="/" className='hidden md:block md:text-l p-2 hover:bg-green-600 duration-300 active:text-green-600' title='Gallery'>Gallery</a>
-          <a href="/" className='hidden md:block md:text-l p-2 hover:bg-green-600 duration-300 active:text-green-600' title='Contact Us'>Contact Us</a>
+
+        
+          <NavLink to="/destinations" className={({ isActive }) =>
+          `p-2 rounded-md ${isActive ? "hidden md:block bg-green-600" : "hidden md:block md:text-l p-2 hover:bg-green-600 duration-300 active:text-green-600"}`
+        } title="Destination">Destinations</NavLink>
+          <NavLink to="/experiences" className={({ isActive }) =>
+          `p-2 rounded-md ${isActive ? "hidden md:block bg-green-600" : "hidden md:block md:text-l p-2 hover:bg-green-600 duration-300 active:text-green-600"}`
+        } title='Experiences'>Experiences</NavLink>
+          <NavLink to="/plan-your-trip" className={({ isActive }) =>
+          `p-2 rounded-md ${isActive ? "hidden md:block bg-green-600" : "hidden md:block md:text-l p-2 hover:bg-green-600 duration-300 active:text-green-600"}`
+        } title='Plan Your Trip'>Plan your trip</NavLink>
+          <NavLink to="/gallery" className={({ isActive }) =>
+          `p-2 rounded-md ${isActive ? "hidden md:block bg-green-600" : "hidden md:block md:text-l p-2 hover:bg-green-600 duration-300 active:text-green-600"}`
+        } title='Gallery'>Gallery</NavLink>
+          <NavLink to="/contact-us" className={({ isActive }) =>
+          `p-2 rounded-md ${isActive ? "hidden md:block bg-green-600" : "hidden md:block md:text-l p-2 hover:bg-green-600 duration-300 active:text-green-600"}`
+        } title='Contact Us'>Contact Us</NavLink>
 
         </div>
 
        
-      </div>
+      </nav>
 
       <div id="mobile" className={`${
           isOpen ? "top-0" : "-top-full"
         } md:hidden fixed grid duration-300 ease-out gap-5 text-center z-20 text-white font-heading text-xl h-auto w-full p-3 pb-52 pt-20 bg-emerald-900/90 backdrop-blur-md mx-auto max-w-screen-xl `}>
-          <a href="/" className='md:block bg-green-500/10 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title="Destination">Destinations</a>
-          <a href="/" className='relative md:block bg-green-500/10 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title='Experiences'>Experiences</a>
-          <a href="/" className='md:block bg-green-500/10 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title='Plan Your Trip'>Plan your trip</a>
-          <a href="/" className='md:block bg-green-500/10 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title='Gallery'>Gallery</a>
-          <a href="/" className='md:block bg-green-500/10 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600' onClick={closeMenu} title='Contact Us'>Contact Us</a>
+          <NavLink to="/destinations" className={({ isActive }) =>
+          `p-2 rounded-md ${isActive ? "bg-green-600" : "md:block bg-green-500/10 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600"}`
+        } onClick={closeMenu} title="Destination">Destinations</NavLink>
+          <NavLink to="/experiences" className={({ isActive }) =>
+          `p-2 rounded-md ${isActive ? "bg-green-600" : "md:block bg-green-500/10 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600"}`
+        } onClick={closeMenu} title='Experiences'>Experiences</NavLink>
+          <NavLink to="/plan-your-trip" className={({ isActive }) =>
+          `p-2 rounded-md ${isActive ? "bg-green-600" : "md:block bg-green-500/10 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600"}`
+        } onClick={closeMenu} title='Plan Your Trip'>Plan your trip</NavLink>
+          <NavLink to="/gallery" className={({ isActive }) =>
+          `p-2 rounded-md ${isActive ? "bg-green-600" : "md:block bg-green-500/10 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600"}`
+        } onClick={closeMenu} title='Gallery'>Gallery</NavLink>
+          <NavLink to="/contact-us" className={({ isActive }) =>
+          `p-2 rounded-md ${isActive ? "bg-green-600" : "md:block bg-green-500/10 md:text-l p-3 hover:bg-amber-500/30 duration-300 active:text-green-600"}`
+        } onClick={closeMenu} title='Contact Us'>Contact Us</NavLink>
       </div>
-
+      
+      
+          <Outlet />
+          <Footer />
         </>
     );  
 }

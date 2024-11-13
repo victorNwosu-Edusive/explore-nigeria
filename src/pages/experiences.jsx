@@ -1,0 +1,14 @@
+import React from "react";
+
+const Experiences = () => {
+    return (
+        <>
+        
+      <div className="p-28 bg-lime-900 bg-blend-overlay bg-experiences-banner md:p-32 bg-cover bg-no-repeat">
+      <p className="font-heading text-5xl text-white">Experiences —</p>
+      </div>
+      </>
+    );
+  };
+  
+  export default Experiences;

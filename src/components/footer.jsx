@@ -33,16 +33,16 @@ const Footer = () => {
             <div className="grid-row space-x-2">
           <p className="font-heading text-3xl md:text-3xl text-white">Connect with us</p>
           <div className="space-x-2 m-3">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:bg-amber-900 duration-300 bg-amber-400 text-green-950 p-2 px-3 rounded-full">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:bg-amber-900 hover:text-white duration-300 bg-amber-400 text-green-950 p-2 px-3 rounded-full">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:bg-amber-900 duration-300 bg-amber-400 text-green-950 p-2 rounded-full">
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:bg-amber-900 hover:text-white duration-300 bg-amber-400 text-green-950 p-2 px-[10px] rounded-full">
               <i className="fab fa-twitter"></i> 
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:bg-amber-900 duration-300 bg-amber-400 text-green-950 p-2 px-[10px] rounded-full">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:bg-amber-900 hover:text-white duration-300 bg-amber-400 text-green-950 p-2 px-[10px] rounded-full">
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="hover:bg-amber-900 duration-300 bg-amber-400 text-green-950 p-2 rounded-full">
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="hover:bg-amber-900 hover:text-white duration-300 bg-amber-400 text-green-950 p-2 rounded-full">
               <i className="fab fa-youtube"></i>
             </a>
             </div>
