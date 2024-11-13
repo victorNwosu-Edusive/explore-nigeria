@@ -1,12 +1,14 @@
 import React from "react";
 import logo from "../assets/images/explore-nigeria-footer.png";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 const Footer = () => {
 
     return (
         <>
 
-        <footer role="contentinfo" className="h-auto p-7 pt-16 md:pt-32 md:px-32 bg-footer-pattern bg-green-950 md:bg-green-900 bg-blend-color-burn bg-fixed bg-no-repeat bg-cover bg-center">
+        <footer role="contentinfo" className="h-auto p-11 pt-16 md:pt-32 md:px-32 bg-footer-pattern bg-green-950 md:bg-green-900 bg-blend-color-burn bg-fixed bg-no-repeat bg-cover bg-center">
         
         
         <div className="block md:grid md:grid-cols-5 gap-14 md:gap-14 text-sm text-white font-primary pb-16">
@@ -27,8 +29,24 @@ const Footer = () => {
           <a href="" className="hover:bg-amber-600 duration-300 ">Contact Us</a>
           </div>
 
-          <div className="grid *:py-1 pb-5">
+          <div className="grid col-span-2 *:py-1 pb-5">
+            <div className="grid-row space-x-2">
           <p className="font-heading text-3xl md:text-3xl text-white">Connect with us</p>
+          <div className="space-x-2 m-3">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:bg-amber-900 duration-300 bg-amber-400 text-green-950 p-2 px-3 rounded-full">
+              <i className="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:bg-amber-900 duration-300 bg-amber-400 text-green-950 p-2 rounded-full">
+              <i className="fab fa-twitter"></i> 
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:bg-amber-900 duration-300 bg-amber-400 text-green-950 p-2 px-[10px] rounded-full">
+              <i className="fab fa-instagram"></i>
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="hover:bg-amber-900 duration-300 bg-amber-400 text-green-950 p-2 rounded-full">
+              <i className="fab fa-youtube"></i>
+            </a>
+            </div>
+            </div>
           </div>
           
         </div>
