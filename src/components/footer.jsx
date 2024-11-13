@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/images/explore-nigeria-footer.png";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { NavLink } from "react-router-dom";
 
 
 const Footer = () => {
@@ -22,11 +23,11 @@ const Footer = () => {
 
           <div className="grid *:py-1 pb-5">
           <p className="font-heading text-3xl md:text-3xl text-white">Quick Links</p>
-          <a href="" className="hover:bg-amber-600 duration-300 ">Destinations</a>
-          <a href="" className="hover:bg-amber-600 duration-300 ">Experiences</a>
-          <a href="" className="hover:bg-amber-600 duration-300 ">Plan your trip</a>
-          <a href="" className="hover:bg-amber-600 duration-300 ">Gallery</a>
-          <a href="" className="hover:bg-amber-600 duration-300 ">Contact Us</a>
+          <NavLink to="/destinations" className="hover:bg-amber-600 duration-300 ">Destinations</NavLink>
+          <NavLink to="/experiences" className="hover:bg-amber-600 duration-300 ">Experiences</NavLink>
+          <NavLink to="/plan-your-trip" className="hover:bg-amber-600 duration-300 ">Plan your trip</NavLink>
+          <NavLink to="/gallery" className="hover:bg-amber-600 duration-300 ">Gallery</NavLink>
+          <NavLink to="/contact-us" className="hover:bg-amber-600 duration-300 ">Contact Us</NavLink>
           </div>
 
           <div className="grid col-span-2 *:py-1 pb-5">
