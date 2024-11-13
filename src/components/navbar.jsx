@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import React, { useState } from 'react';
 import { Outlet, NavLink } from "react-router-dom";
 import Footer from "./footer";
+import ScrollToTop from "./scrolltotop";
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -17,6 +18,7 @@ function Navbar() {
 
     return (
         <>
+        <ScrollToTop />
         <nav className='fixed z-30 w-full p-4 ease-in bg-emerald-900/70 backdrop-blur-md flex flex-wrap justify-between items-center mx-auto max-w-screen-xl'>
         <div className='flex space-x-3 rtl:space-x-reverse'>
           <NavLink to="/" className='font-heading text-white text-xl md:text-2xl hover:text-amber-400 duration-300' onClick={closeMenu} >Explore Nigeria

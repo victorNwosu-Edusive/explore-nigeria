@@ -6,12 +6,13 @@ import Navbar from "../src/components/navbar";
 import './App.css';
 import Destinations from "../src/components/destinations";
 import Highlights from "../src/components/highlights";
+import ScrollToTop from './components/scrolltotop';
 
 const Homepage = () => {
 
 return (
     <>
-
+        <ScrollToTop />
         <div className="relative md:text-center h-auto md:h-lvh p-10 md:p-20 md:pt-44 pt-40 pb-52 md:pb-52 bg-hero-pattern bg-green-700 bg-blend-overlay bg-no-repeat bg-cover">
         <motion.div
       initial={{ opacity: 0 }}

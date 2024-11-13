@@ -13,6 +13,7 @@ import Experiences from "./pages/experiences";
 import Plan from "./pages/planyourtrip";
 import Gallery from "./pages/gallery";
 import Contact from "./pages/contactus";
+import ScrollToTop from "./components/scrolltotop";
 
 const router = createBrowserRouter([
   {
@@ -50,6 +51,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={router}>
+    <ScrollToTop />
+    </RouterProvider>
   </React.StrictMode>
 );
