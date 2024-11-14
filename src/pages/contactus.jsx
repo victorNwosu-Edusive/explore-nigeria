@@ -20,11 +20,11 @@ const Contact = () => {
           <form action="" className="grid">
             <h1 className="font-heading text-green-900 text-2xl md:text-3xl text-center md:text-center">Send us a message</h1>
             <div className="block md:grid *:border-1 *:border-green-700 md:grid-cols-2 gap-3 p-2">
-            <input type="text" required placeholder="Firstname" className="focus:border-green-700 duration-300 w-full my-3 md:my-0 lg:my-0 md:w-full lg:w-full placeholder-green-900 text-sm placeholder-opacity-25 font-primary grid p-2 bg-green-700/20" />
-            <input type="text" required placeholder="Lastname" className="w-full my-3 md:my-0 lg:my-0 md:w-full lg:w-full placeholder-green-900 text-sm placeholder-opacity-25 font-primary grid p-2 bg-green-700/20" />
-            <input type="email" required placeholder="Email" className="w-full my-3 md:my-0 lg:my-0 md:w-full lg:w-full placeholder-green-900 text-sm placeholder-opacity-25 font-primary grid col-span-2 p-2 bg-green-700/20" />
-            <input type="text" required placeholder="Phone Number" className="w-full my-3 md:my-0 lg:my-0 md:w-full lg:w-full placeholder-green-900 text-sm placeholder-opacity-25 font-primary grid col-span-2 p-2 bg-green-700/20" />
-            <textarea name=""  className="w-full h-40 my-3 md:my-0 lg:my-0 md:w-full lg:w-full placeholder-green-900 text-sm placeholder-opacity-25 font-primary grid col-span-2 p-2 bg-green-700/20" id="" placeholder="Message..."></textarea>
+            <input type="text" required placeholder="Firstname" className="focus:border-green-700 duration-300 w-full my-3 md:my-0 lg:my-0 md:w-full lg:w-full placeholder-green-900 text-sm placeholder-opacity-50 font-primary grid p-2 bg-green-700/20" />
+            <input type="text" required placeholder="Lastname" className="w-full my-3 md:my-0 lg:my-0 md:w-full lg:w-full placeholder-green-900 text-sm placeholder-opacity-50 font-primary grid p-2 bg-green-700/20" />
+            <input type="email" required placeholder="Email" className="w-full my-3 md:my-0 lg:my-0 md:w-full lg:w-full placeholder-green-900 text-sm placeholder-opacity-50 font-primary grid col-span-2 p-2 bg-green-700/20" />
+            <input type="text" required placeholder="Phone Number" className="w-full my-3 md:my-0 lg:my-0 md:w-full lg:w-full placeholder-green-900 text-sm placeholder-opacity-50 font-primary grid col-span-2 p-2 bg-green-700/20" />
+            <textarea name=""  className="w-full h-40 my-3 md:my-0 lg:my-0 md:w-full lg:w-full placeholder-green-900 text-sm placeholder-opacity-50 font-primary grid col-span-2 p-2 bg-green-700/20" id="" placeholder="Message..."></textarea>
             <button className="w-full my-3 md:my-0 lg:my-0 md:w-full lg:w-full text-sm font-primary grid col-span-2 md:col-span-1 lg:col-span-2 p-2 border-none bg-green-900 duration-300 hover:bg-green-700 text-white">SEND</button>
             </div>
             

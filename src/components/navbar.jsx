@@ -19,7 +19,7 @@ function Navbar() {
     return (
         <>
         <ScrollToTop />
-        <nav className='fixed z-30 w-full p-4 ease-in bg-emerald-900/70 backdrop-blur-md flex flex-wrap justify-between items-center mx-auto max-w-screen-xl'>
+        <nav className='fixed z-30 w-full lg:w-full p-4 ease-in bg-emerald-900/70 backdrop-blur-md flex flex-wrap justify-between items-center mx-auto max-w-screen-3xl'>
         <div className='flex space-x-3 rtl:space-x-reverse'>
           <NavLink to="/" className='font-heading text-white text-xl md:text-2xl hover:text-amber-400 duration-300' onClick={closeMenu} >Explore Nigeria
           </NavLink>

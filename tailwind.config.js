@@ -17,6 +17,8 @@ export default {
         'experiences-banner': "url('../src/assets/images/experiences-banner.jpeg')",
         'plan': "url('../src/assets/images/planyourtrip.avif')",
         'contactus': "url('../src/assets/images/contactus.jpg')",
+        'gallery-banner': "url('../src/assets/images/gallery-banner.jpg')",
+
       }
     },
   },
