@@ -38,7 +38,7 @@ const Gallery = () => {
         <p className=" text-white font-primary text-sm md:text-xl mt-1 ">A Visual Journey through Nigeria's wonders</p>
       </div>
     <div className='p-3 md:p-11'>
-    <p className=" text-white text-center font-primary text-[11px] md:text-sm mt-6 ">TAP/CLICK ON IMAGES TO SEE MORE</p>
+    <p className=" text-white text-center font-primary text-[11px] md:text-sm mt-6 ">TAP/CLICK ON IMAGES TO SEE INFO</p>
     <div className="p-10 grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
       {images.map((image, index) => (
         <div
