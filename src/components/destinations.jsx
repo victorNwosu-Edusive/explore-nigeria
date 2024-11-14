@@ -11,7 +11,7 @@ const Destinations = () => {
       <p className="font-heading text-3xl md:text-4xl text-center mb-5">Popular Destinations</p>
       <p className="tracking-[.40em] text-white font-primary text-[12px] md:text-sm text-center md:text-center mb-3 md:mb-6">FEATURED LANDSCAPES</p>
       
-      <div className="grid gap-5">
+      <div className="grid gap-10 md:gap-24">
         
         {/* Obudu Mountain Resort */}
         <motion.div
